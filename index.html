@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<meta charset="UTF-8"/>
+<html>
+<head>
+    <title>Heisenberg Sistema Minecraft</title>
+    <style>
+        body {
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-form {
+            width: 300px;
+            padding: 30px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            margin-right: 10px;
+        }
+        .login-form input[type="text"],
+        .login-form input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .login-form button[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            background-color: #007BFF;
+            align-items: center;
+        }
+    </style>
+</head>
+<body style="background-image:url('heisenberg.png');">
+    <div class="login-form">
+        <form action="/login" method="post">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
