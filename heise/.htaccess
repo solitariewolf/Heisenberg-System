@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Área restrita"
+AuthUserFile /caminho/para/.htpasswd
+Require valid-user
